@@ -1,79 +1,12 @@
-# 一级标题
-## 二级标题
-**这是文字粗体格式**
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+formula1: $$n==x$$
 
-*这是文字斜体格式*
+formula2: $$n!=x$$
 
-~~在文字上添加删除线~~
+formula3: (m==y)
 
-这是一段普通的文本， 直接回车不能换行，<br>  要使用\<br>  
+formula4: [m!=y]
 
-无序列表
+formula5: \(k==z\)
 
-*项目1
-
-*项目2
-
-*项目3
-
-有序列表
-
-1.项目1
-
-2.项目2
-
-3.项目3
-
-图片![图片名称](http://gitcafe.com/image.png)
-
-链接[链接名称](http://gitcafe.com)
-
-引用
-
->第一行引用文字
-
->第二行引用文字
-
-水平线 *** 
-
-部分文字高亮突出
-
-Thank `You` . Please `Call` Me `Coder`
-
-代码`<hello
- world>`
- 
-文字超链接 [我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
-
-* 编程语言  
-    * 脚本语言  
-        * Python
->数据结构  
->>树  
->>>二叉树  
->>>>平衡二叉树  
->>>>>满二叉树
-
-代码块高亮
-
-```ruby
-def
- add(a, b)  
-return
- a + b 
-end
-```
-
-表格
-
-表头
- | 表头  
--------------
- | ------------- 
-单元格内容
- | 单元格内容 
-单元格内容l
- | 单元格内容
-----------
-
-
+formula6: \[k!=z\]
