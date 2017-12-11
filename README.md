@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 系泊系统的优化设计
 ## 问题背景
 
@@ -72,6 +71,5 @@
 `bestpoint1_3D.m`：用fzero法求最优吃水深度h。<br>
 
 `best_xitong_3D.m`：计算bestx0, besty0，bestz0情况下的系统信息及系统3D图形。
-=======
->>>>>>> 77be9b0cd538e4f813af1df90fd033c957dc60a2
+
 
