@@ -15,7 +15,7 @@
 3.在空间直角坐标系下对系泊系统进行模拟，即所谓的3D模型。
 
 ## 文件说明
-###2D系泊系统
+### 2D系泊系统
 `For2D.m`:此函数用于给定x0和y_0后求解系泊系统的状态曲线。<br>
 `bestpoint.m ` :离散枚举法求最优吃水深度h。<br>
 `bestpoint2.m` :迭代算法求最优吃水深度h。<br>
@@ -28,7 +28,7 @@
 `circlecon_m_l.m ` : `solve3.m`调用的子文件，问题3的非线性约束设置。<br>
 `effect_v_wind.m ` : 查看风速对系统状态的影响。
 
-###2D模型改进
+### 2D模型改进
 `For2D_expand.m` :此函数是系泊系统的3元方程组的目标函数，用于fsolve函数。模型改进：引入"力矩平衡"和"悬链线方程"。<br>
 `bestpoint3_expand.m` : 此函数用于求解系泊系统的3元方程组，从而求出最优y0,x0,alpha2。<br>
 `best_xitong_expand.m`：利用bestpoint3_expand计算bestx0, besty0情况下的系统信息及系统图形。<br>
@@ -37,7 +37,7 @@
 `circlecon_m_l_expand.m`：`solve3_expand.m`调用的子函数，是第三问优化问题的`GA算法`的约束条件。<br>
 `effect_v1_v2_H.m`：风速v1、水速v2和水深H对系统状态的影响。
 
-###3D系泊系统
+### 3D系泊系统
 >`For3D.m`：此函数用于给定x0、y0和z0后求解3D系泊系统的状态曲线。
 >>`D3fun_fubiao.m`：`For3D.m`调用的子函数，用于对浮标进行受力分析。
 >>`D3fun_gangguan.m`：`For3D.m`调用的子函数，用于对钢管进行受力分析。
