@@ -2,7 +2,7 @@
 ## 问题背景
 此问题是2016年中国全国大学生数学建模竞赛赛题，赛题可以在
 <http://www.mcm.edu.cn/html_cn/block/8579f5fce999cdc896f78bca5d4f8237.html>
-下载查看，也可以查看`xipoxitong\文章\xipoxitong.pdf`文件。
+下载查看，也可以查看`xipoxitong/文章/xipoxitong.pdf`文件。
 ## 模型说明
 共设计3个系泊系统的模拟模型：
 
@@ -17,7 +17,9 @@
 ## 文件说明
 ### 2D系泊系统
 `For2D.m`:此函数用于给定x0和y_0后求解系泊系统的状态曲线。<br>
+
 `bestpoint.m ` :离散枚举法求最优吃水深度h。<br>
+
 `bestpoint2.m` :迭代算法求最优吃水深度h。<br>
 `bestpoint3.m` :fzero法法求最优吃水深度h。<br>
 `best_xitong.m`:求系统信息及系统图形。<br>
